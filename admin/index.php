@@ -8,11 +8,9 @@ require('../_app/Config.inc.php');
     <head>
         <meta charset="UTF-8">
         <title>Área Restrita</title>
-
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,800' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/reset.css"/>
         <link rel="stylesheet" href="css/admin.css"/>
-
     </head>
     <body class="login">
 
@@ -48,7 +46,6 @@ require('../_app/Config.inc.php');
                 endif;
             endif;
             ?>
-
             <form name="AdminLoginForm" action="" method="post">
                 <label>
                     <span>E-mail:</span>
@@ -61,6 +58,9 @@ require('../_app/Config.inc.php');
                 </label>
 
                 <input type="submit" name="AdminLogin" value="Logar" class="btn blue"/>
+                <a href="registrar.php">
+                    <input type="button" name="Registrar" value="Registrar" class="btn green"/>                    
+                </a>
 
             </form>
         </div>
