@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="52dececc-f81f-47df-ac8b-08ba4a7bf15c" name="breadtime" url="http://localhost/breadtime">
+        <fileTransfer mountedRoot="C:\xampp\htdocs\breadtime" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
